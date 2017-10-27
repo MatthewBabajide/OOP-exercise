@@ -5,7 +5,6 @@
   "main": "main.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register test/test.js"
-
   },
   "repository": {
     "type": "git",
@@ -24,12 +23,13 @@
     "mocha": "^4.0.1"
   },
   "dependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "babel-register": "^6.26.0"
+    "global": "^4.3.2"
   }
 }
